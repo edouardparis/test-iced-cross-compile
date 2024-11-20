@@ -10,6 +10,9 @@ let
 in
 pkgs.mkShell rec {
   buildInputs = with pkgs; [
+    pkgs.dpkg
+    pkgs.musl
+
     pkgs.expat
     pkgs.fontconfig
     pkgs.freetype

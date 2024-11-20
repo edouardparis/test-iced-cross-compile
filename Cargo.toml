@@ -1,5 +1,5 @@
 [package]
-name = "macos-sdk-unxip"
+name = "test-iced-cross-compile"
 version = "0.1.0"
 edition = "2021"
 
